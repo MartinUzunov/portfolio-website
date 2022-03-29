@@ -49,28 +49,28 @@ const Work = () => {
         <Project
           invertedOrientation={false}
           projectName="Discord Clone"
-          projectDescription="Fully functional Discord clone implemented in Java with the help of the JavaFX library. The application implements the Client-Server model and is using MySQL as a database. The user can create an account or log in if an account already exists, add other users as friends, create groups, invite users to the group, add categories and channels to the groups, send personal and group messages, change personal and group profile photos, block users,  change his activity status and see friends activity status. "
+          projectDescription="A fully functional Discord clone implemented in Java with the help of the JavaFX library. The application implements the Client-Server model and is using MySQL as a database. The user can create an account or log in if an account already exists, add other users as friends, create groups, invite users to the group, add categories and channels to the groups, send personal and group messages, change personal and group profile photos, block users, change his activity status and see friends activity status."
           video={Discord}
           stackItems={discordTechnologies}
         ></Project>
         <Project
           invertedOrientation={true}
           projectName="Algorithm Visualizer"
-          projectDescription="Algorithm visualization illustrates how algorithms work in a graphical way. It's aims is to simplify and deepen the understanding of algorithms operation. Currently two algortihms are implemented: Breadth First Search and A-Star. The application allows the user to draw 'walls', set starting and ending point and reset the board."
+          projectDescription="Algorithm visualization illustrates how algorithms work in a graphical way. It aims to simplify and deepen the understanding of the algorithm's operation. Currently, two algorithms are implemented: Breadth-First Search and A-Star. The application allows the user to draw 'walls', set starting and ending points, and reset the board."
           video={AlgorithmVisualization}
           stackItems={algorithmVisualizationTechnologies}
         ></Project>
         <Project
           invertedOrientation={false}
           projectName="Sudoku"
-          projectDescription="The classic Sudoku game implemented in Java with the help of the JavaFX library. The application implements the Remote Method Invocation model. The user can use both the mouse and the keyboard for input, choose difficulty level, take notes, undo and redo moves and request a solution to the puzzle from the server. "
+          projectDescription="The classic Sudoku game implemented in Java with the help of the JavaFX library. The application implements the Remote Method Invocation model. The user can use both the mouse and the keyboard for input, choose the difficulty level, take notes, undo and redo moves and request a solution to the puzzle from the server."
           video={Sudoku}
           stackItems={sudokuTechnologies}
         ></Project>
         <Project
           invertedOrientation={true}
           projectName="Minesweeper"
-          projectDescription="The Windows XP version of the Minesweeper implemnted with PyGame. The mines are randomly placed and then the whole board is filled with unflipped blocks. The user can reset the board at any time by pressing the emoji button."
+          projectDescription="The Windows XP version of the Minesweeper implemented in PyGame. The mines are randomly placed and then the whole board is filled with unflipped blocks. The user can reset the board at any time by pressing the emoji button."
           video={Minesweeper}
           stackItems={minesweeperTechnologies}
         ></Project>
